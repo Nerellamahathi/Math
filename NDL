@@ -1,0 +1,9 @@
+import numpy as np
+
+Q0 = 1000
+Q5 = 500
+k = -np.log(0.5) / 5
+Q10 = Q0 * np.exp(-10 * k)
+
+print("Decay constant k:", k)
+print("Predicted population after 10 hours:", Q10)
